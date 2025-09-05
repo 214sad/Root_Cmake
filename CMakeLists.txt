@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 project(demo)
 
-set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/INSTALL)
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/INSTALL CACHE PATH "Default prefix of install directories" FORCE)
+endif()
 
 find_package(ROOT REQUIRED COMPONENTS RIO Net Graf Gui)
 

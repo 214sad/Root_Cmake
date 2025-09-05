@@ -1,7 +1,0 @@
-/home/Tom/Root/event/build/CMakeFiles/main.dir
-/home/Tom/Root/event/build/CMakeFiles/edit_cache.dir
-/home/Tom/Root/event/build/CMakeFiles/rebuild_cache.dir
-/home/Tom/Root/event/build/CMakeFiles/list_install_components.dir
-/home/Tom/Root/event/build/CMakeFiles/install.dir
-/home/Tom/Root/event/build/CMakeFiles/install/local.dir
-/home/Tom/Root/event/build/CMakeFiles/install/strip.dir
